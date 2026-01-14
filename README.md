@@ -4,7 +4,7 @@ Uma ferramenta web interativa e moderna para auxiliar no processo de Terapia Cog
 
 Como Usar
 Instalação
-Não há instalação necessária! Este é um aplicativo web puro (HTML + CSS + JavaScript).
+Não há instalação necessária! Este é um aplicativo web puro (HTML + CSS).
 
 Clone o repositório:
 
