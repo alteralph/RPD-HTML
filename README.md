@@ -1,4 +1,5 @@
 Registro de Pensamentos Disfuncionais
+
 Uma ferramenta web interativa e moderna para auxiliar no processo de Terapia Cognitivo-Comportamental (TCC), permitindo identificar, registrar e reestruturar pensamentos automáticos disfuncionais.
 
 Funcionalidades
