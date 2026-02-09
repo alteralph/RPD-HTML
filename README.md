@@ -53,4 +53,8 @@ I built this because I needed a digital place to do my **Dysfunctional Thought R
 ## Mobile Version:
 ![telegram-cloud-photo-size-1-4925177326794902407-y](https://github.com/user-attachments/assets/df282c2a-d9fc-4ce7-871d-6a205883eb81)
 
+## Legacy Web Version(Includes the new design and themes!)
+
+![telegram-cloud-photo-size-1-4925177326794902415-y](https://github.com/user-attachments/assets/bda2a09f-c9c3-472d-a048-45ca5d276c95)
+
 
