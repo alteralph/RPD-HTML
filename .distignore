@@ -1,0 +1,65 @@
+# RPD Sky - Distribution Files
+
+This directory contains the built packages for RPD Sky.
+
+## Files
+
+### rpd-sky-x86_64.AppImage
+Self-contained executable for Linux x86_64 systems.
+
+**Usage:**
+```bash
+./rpd-sky-x86_64.AppImage
+```
+
+**Distribution:**
+- Share this file directly with users
+- Works on most Linux distributions (requires glibc)
+- No installation required
+
+### rpd-sky-1.0.0.tar.gz
+Source tarball for building or distribution.
+
+**Usage:**
+```bash
+tar -xzf rpd-sky-1.0.0.tar.gz
+```
+
+### pkgbuild/
+Directory containing Arch Linux Pacman package files.
+
+**To install:**
+```bash
+sudo pacman -U pkgbuild/rpd-sky-1.0.0-1-x86_64.pkg.tar.zst
+```
+
+**To uninstall:**
+```bash
+sudo pacman -R rpd-sky
+```
+
+## Distribution Methods
+
+### Method 1: AppImage (Recommended)
+- Share the `.AppImage` file
+- Users run it directly
+- Works across all Linux distributions
+
+### Method 2: Pacman Package
+- Share the `.pkg.tar.zst` file
+- Users install with pacman
+- Best for Arch Linux users
+
+### Method 3: Source Distribution
+- Include the source tarball
+- Users can build locally
+- Good for development distributions
+
+## Additional Notes
+
+- The application will appear as "RPD Sky" in application menus
+- The icon.png file is used as the application icon
+- Window title displays "RPD Sky"
+- All builds are optimized for release
+
+For build instructions, see [LINUX_BUILD_GUIDE.md](../LINUX_BUILD_GUIDE.md)

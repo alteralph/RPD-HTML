@@ -1,0 +1,58 @@
+name: rpd_sky
+description: RPD Sky - Organized task and thought management app.
+publish_to: 'none' 
+
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Dependências Essenciais
+  provider: ^6.1.5
+  intl: ^0.20.2
+  uuid: ^4.5.2
+  path_provider: ^2.1.5
+  file_picker: ^10.3.10
+  share_plus: ^12.0.1
+  cupertino_icons: ^1.0.8
+  window_manager: ^0.5.1
+  shared_preferences: ^2.5.4
+  
+  # Dependências Web
+  web: ^1.1.1
+  universal_html: ^2.3.0
+  
+  # Localização
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  # ADICIONADO PARA GERAR ÍCONES
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+  # Se você usar imagens dentro do app (além do ícone), descomente abaixo:
+  # assets:
+  #   - assets/
+
+# --- CONFIGURAÇÃO DOS ÍCONES (WEB, ANDROID, IOS) ---
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false             # <--- MUDAMOS PARA FALSE PARA EVITAR O ERRO
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icon.png"
+    background_color: "#000000"
+    theme_color: "#000000"

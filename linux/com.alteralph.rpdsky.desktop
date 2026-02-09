@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=RPD Sky
+Comment=A Flutter application for thought recording
+Exec=rpd-sky
+Icon=rpd-sky
+Categories=Utility;Office;
+Terminal=false
+StartupNotify=true
